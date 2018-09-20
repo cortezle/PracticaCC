@@ -1,3 +1,7 @@
+:root{
+    scroll-behavior: smooth;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -22,14 +26,29 @@ body{
     justify-content: center;
     align-items: center;
 }
+.startp a{
+    display: flex;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: white;
+}
 
 .start .iconhead a{
     color: white;
     font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: solid white ;
+    text-decoration: none;
+    overflow: hidden;
+    width: 1em;
+    height: 1em;
 }
 .iconhead{
-    border-radius: 50% solid red;
-    
+    padding: 1.8em;
+    text-decoration: none;
 }
 
 .pic{
@@ -48,19 +67,20 @@ h1{
 
 .imt1{
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    grid-template-rows: 50%;
-    overflow: hidden;
-    padding-top: 2em;
-    background-color: #202024;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    grid-template-rows: 390px 390px;
+    padding: 3.5em 15% 3.5em 15%;
+    
 }
 
 .picbox{
     height: auto;
     width: 100%;
     background-color: #2c2c31;
+    border-radius: 5px;
 }
+
 
 
 h1{
@@ -76,8 +96,10 @@ h1{
     font-size: 1.5em;
 }
 
-.box{
+.box {
     color: white;
+    background-color: #2c2c31;
+    border-radius: 5px;
 }
 
 .box .box_2{
@@ -86,6 +108,7 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 0.5em;
+    border-radius: 4px;
 }
 
 .box .box_2 p{
@@ -93,20 +116,19 @@ h1{
 }
 
 .boxcontainer{
+    display: grid;
     padding: 4em 0 2em 0;
     background-color: #202024;
 }
 
-.granBordeRubi{
-    background-color: aqua;
-    color: WHITE;
-    border: 2px;
-    font-size: 15px;
-    border-radius: 8px;
-    padding: 10px 70px;
-    width: 100%;
-    text-decoration: none;
-
+.button_type {
+    WIDTH: auto;
+    BACKGROUND-COLOR: AQUA;
+    BORDER: NONE;
+    COLOR: WHITE;
+    PADDING: 10% 38% 10% 38%;
+    BORDER-RADIUS: 5PX;
+    font-SIZE: 1EM;
 }
 
 .footer{
