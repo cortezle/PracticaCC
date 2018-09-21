@@ -1,3 +1,5 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400");
 :root{
     scroll-behavior: smooth;
 }
@@ -5,19 +7,38 @@
 body{
     padding: 0;
     margin: 0;
+   
+    
+}
+header{
+    width: 100%;
 }
 .container{
     
     padding: 0;
     margin: 0;
-    background-color: #202024;
+    background-color: #1b1b1f;
+}
+
+.start{
+    position: relative;
+
+}
+
+.start video{
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    height: 70vh;
+    width: 100%;
 }
 
 .start {
     display: flex;
     flex-direction: column;
     height: 70vh;
-    background-image: url("img1.jpg");
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
@@ -25,12 +46,7 @@ body{
     font-weight: bold;
     justify-content: center;
     align-items: center;
-}
-.startp a{
-    display: flex;
-    text-decoration: none;
-    border-bottom: 1px dotted;
-    color: white;
+
 }
 
 .start .iconhead a{
@@ -45,6 +61,11 @@ body{
     overflow: hidden;
     width: 1em;
     height: 1em;
+    position: relative;   
+}
+
+.start .iconhead a:hover{
+   background-color:  rgba(255, 255, 255, 0);
 }
 .iconhead{
     padding: 1.8em;
@@ -61,6 +82,9 @@ body{
 h1{
     color: white;
     z-index: 2;
+    font-family: 'Passion One', cursive;
+    font-size: 4em;
+    font-weight: 400;
     
 }
 
@@ -69,8 +93,9 @@ h1{
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-    grid-template-rows: 390px 390px;
+    grid-auto-rows: 390px 390px;
     padding: 3.5em 15% 3.5em 15%;
+    overflow: hidden;
     
 }
 
@@ -83,17 +108,25 @@ h1{
 
 
 
-h1{
+#banner h1 {
     color: white;
-    font-size: 3em;
+    font-size: 5em;
+    font-weight: 400;
+    font-family: 'Passion One', cursive;
+    margin: 0;
 }
 
 .startp{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.85);
     font-size: 1.5em;
+    text-align: center;
+    padding: 0 0 1.5em 0;
+    font-weight: 300;
+    margin: 0 0 1.5em 0;
+
 }
 
 .box {
@@ -113,6 +146,8 @@ h1{
 
 .box .box_2 p{
     color: gray;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .boxcontainer{
@@ -121,14 +156,68 @@ h1{
     background-color: #202024;
 }
 
-.button_type {
-    WIDTH: auto;
-    BACKGROUND-COLOR: AQUA;
-    BORDER: NONE;
-    COLOR: WHITE;
-    PADDING: 10% 38% 10% 38%;
-    BORDER-RADIUS: 5PX;
-    font-SIZE: 1EM;
+.button_type1 {
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    width: 90%;
+    background-color: #70c7be;
+    padding: 4%;
+    font-size: 100%;
+    border-radius: 4px;
+}
+.button_type2 {
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    width: 90%;
+    background-color: #70c7be;
+    padding: 4%;
+    font-size: 100%;
+    border-radius: 4px;
+}
+.button_type3 {
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    width: 90%;
+    background-color: #70c7be;
+    padding: 4%;
+    font-size: 100%;
+    border-radius: 4px;
+}
+.button_type4 {
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    width: 90%;
+    background-color: #70c7be;
+    padding: 4%;
+    font-size: 100%;
+    border-radius: 4px;
+   
+}
+.button_type5 {
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    width: 90%;
+    background-color: #70c7be;
+    padding: 4%;
+    font-size: 100%;
+    border-radius: 4px;
+   
+}
+.button_type6 {
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    width: 90%;
+    background-color: #70c7be;
+    padding: 4%;
+    font-size: 100%;
+    border-radius: 4px;
+  
 }
 
 .footer{
@@ -154,6 +243,8 @@ h2{
     color: gray;
     justify-content: center;
     margin: 0 0 2em 0;
+    text-align: center;
+    line-height: 2;
 }
 
 .footer .icons ul li{
@@ -161,6 +252,7 @@ h2{
     font-size: 2em;
     padding: 0.5em;
     border-radius: 50% solid red;
+    
 }
 
 .footer .icons ul{
@@ -169,4 +261,43 @@ h2{
     display: flex;
     justify-content: center;
     
+}
+
+.footer .icons ul li a{
+    text-decoration: none;
+    color:#39393b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid #39393b ;
+    text-decoration: none;
+    overflow: hidden;
+    width: 20%;
+    height: 20%;
+    padding: 1em;   
+    font-size: 0.5em;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    padding: 0;
+    text-align: center;
+}
+
+.copyright a{
+    border-bottom: 1px dotted;
+    color: gray;
+    text-decoration: none;
+}
+
+.copyright a:hover{
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.footer .icons ul li a:hover{
+    color: white;
 }
