@@ -106,6 +106,13 @@ h1{
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 500px) {
+    .imt1{
+        grid-template-columns: repeat(auto-fit, minmax(30%, 100%));
+    }
+    only screen and
+}
+
 
 
 #banner h1 {
@@ -150,6 +157,8 @@ h1{
     line-height: 1.5;
 }
 
+
+
 .boxcontainer{
     display: grid;
     padding: 4em 0 2em 0;
@@ -171,7 +180,7 @@ h1{
     text-align: center;
     color:white;
     width: 90%;
-    background-color: #70c7be;
+    background-color: #7f92cf;
     padding: 4%;
     font-size: 100%;
     border-radius: 4px;
@@ -181,7 +190,7 @@ h1{
     text-align: center;
     color:white;
     width: 90%;
-    background-color: #70c7be;
+    background-color: #9d7ed0;
     padding: 4%;
     font-size: 100%;
     border-radius: 4px;
@@ -191,7 +200,7 @@ h1{
     text-align: center;
     color:white;
     width: 90%;
-    background-color: #70c7be;
+    background-color: #7f92cf;
     padding: 4%;
     font-size: 100%;
     border-radius: 4px;
@@ -202,7 +211,7 @@ h1{
     text-align: center;
     color:white;
     width: 90%;
-    background-color: #70c7be;
+    background-color: #9d7ed0;
     padding: 4%;
     font-size: 100%;
     border-radius: 4px;
